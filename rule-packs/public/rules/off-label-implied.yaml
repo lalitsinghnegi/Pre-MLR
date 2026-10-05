@@ -1,0 +1,19 @@
+id: off-label-implied
+version: 2
+title: No implied off-label use
+category: claims
+severity: critical
+check_type: llm
+description: >
+  Promotion must not recommend or suggest uses, patient populations, doses or durations that are
+  not in the approved labeling.
+source:
+  citation: 21 CFR 202.1(e)(4)(i)(a); FDA guidance "Medical Product Communications That Are Consistent With the FDA-Required Labeling - Questions and Answers" (June 2018)
+  url: https://www.law.cornell.edu/cfr/text/21/202.1
+  note: 'Guidance: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/medical-product-communications-are-consistent-fda-required-labeling-questions-and-answers'
+  last_verified: 2026-10-03
+prompt_template: |
+  Identify statements on this page that recommend or suggest a use, condition, patient population,
+  dose or duration that does not appear in the indication stated on the site. Quote each statement
+  exactly from the page text and name the indication it appears to go beyond. If the page does not
+  state an indication, or you are unsure, return a low-confidence finding or none.

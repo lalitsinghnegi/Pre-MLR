@@ -1,0 +1,21 @@
+id: med-guide-link
+version: 1
+title: Medication Guide link is present and works
+category: safety_information
+severity: major
+check_type: deterministic
+enabled_by_default: false
+description: >
+  For products with a Medication Guide, pages should link to it and the link must resolve.
+  Disabled by default because not every product has one; enable it per scan.
+source:
+  citation: 21 CFR Part 208 (Medication Guides for Prescription Drug Products)
+  url: https://www.law.cornell.edu/cfr/text/21/part-208
+  note: TODO confirm applicability of Part 208 distribution requirements to promotional websites.
+  last_verified: 2026-10-03
+params:
+  check: required-link
+  name: Medication Guide
+  mode: present-and-resolves
+  linkText: [Medication Guide]
+  hrefContains: [medication-guide, medguide]

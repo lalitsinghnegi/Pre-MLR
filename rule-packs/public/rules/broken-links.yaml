@@ -1,0 +1,15 @@
+id: broken-links
+version: 1
+title: Links work
+category: links
+severity: minor
+check_type: deterministic
+description: Links (internal and external) should not return errors.
+source:
+  citation: Site quality check (no regulatory source)
+  url: null
+  note: TODO decide with MLR whether broken external links need tracking.
+  last_verified: null
+params:
+  check: link-health
+  excludePaths: []

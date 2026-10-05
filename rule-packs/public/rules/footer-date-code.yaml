@@ -1,0 +1,24 @@
+id: footer-date-code
+version: 1
+title: Copyright year, review date or job code is present
+category: legal_privacy
+severity: minor
+check_type: deterministic
+description: >
+  Pages should show a copyright year, a "last updated" date or a material/job code so the reviewed
+  version can be identified. The job-code pattern is editable.
+source:
+  citation: Industry practice (no public regulatory source)
+  url: null
+  note: TODO replace the job-code pattern with the company's format.
+  last_verified: null
+params:
+  check: required-text
+  missing: a copyright year, "last updated" date or job code
+  match: any
+  patterns:
+    - '(?:©|\(c\)|copyright)\s*(?:\d{4}[-–])?\d{4}'
+    - 'last\s+(?:updated|revised|reviewed)'
+    # Job code like US-EXM-2600123 (matched case-insensitively, so it needs a 4+ digit final group).
+    - '\b[A-Z]{2,5}-[A-Z0-9]{2,6}-\d{4,}\b'
+  excludePaths: []

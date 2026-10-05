@@ -1,0 +1,26 @@
+id: isi-readability
+version: 1
+title: Safety information is readable
+category: safety_information
+severity: major
+check_type: deterministic
+description: >
+  Risk information should be presented with prominence and readability reasonably comparable to
+  benefit information. Flags ISI text smaller than 12px or below WCAG contrast minimums.
+source:
+  citation: 21 CFR 202.1(e)(7)(viii); WCAG 2.2 SC 1.4.3 Contrast (Minimum)
+  url: https://www.law.cornell.edu/cfr/text/21/202.1
+  note: >
+    Thresholds (12px; 4.5:1, or 3:1 for large text) are this prototype's defaults; the regulation
+    asks for "reasonably comparable" prominence, not fixed values. Contrast ignores background
+    images and gradients. WCAG: https://www.w3.org/TR/WCAG22/#contrast-minimum
+  last_verified: 2026-10-03
+params:
+  check: section-readability
+  sectionHeadings:
+    - Important Safety Information
+    - Important Risk Information
+    - Selected Safety Information
+  minFontPx: 12
+  minContrast: 4.5
+  minContrastLarge: 3

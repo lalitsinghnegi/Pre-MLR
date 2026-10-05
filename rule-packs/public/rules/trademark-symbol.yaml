@@ -1,0 +1,17 @@
+id: trademark-symbol
+version: 1
+title: Trademark symbol on first brand-name mention
+category: branding
+severity: minor
+check_type: deterministic
+description: >
+  The first brand-name mention on each page should carry ® or ™. Needs the scan's product profile;
+  skipped without one.
+source:
+  citation: Company trademark style (no public regulatory source)
+  url: null
+  note: TODO replace with the company's trademark usage guidelines.
+  last_verified: null
+params:
+  check: brand-names
+  requirement: trademark-symbol

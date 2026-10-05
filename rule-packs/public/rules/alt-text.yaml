@@ -1,0 +1,18 @@
+id: alt-text
+version: 1
+title: Images have alt text
+category: accessibility
+severity: minor
+check_type: deterministic
+description: >
+  Meaningful images need a text alternative. Images with alt="", role="presentation" or
+  aria-hidden are treated as decorative.
+source:
+  citation: WCAG 2.2 SC 1.1.1 Non-text Content; Section 508 (36 CFR Part 1194)
+  url: https://www.w3.org/TR/WCAG22/#non-text-content
+  note: 'Section 508: https://www.law.cornell.edu/cfr/text/36/part-1194'
+  last_verified: 2026-10-03
+params:
+  check: alt-text
+  minSizePx: 16
+  excludePaths: []

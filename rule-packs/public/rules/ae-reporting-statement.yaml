@@ -1,0 +1,27 @@
+id: ae-reporting-statement
+version: 1
+title: FDA adverse-event reporting statement is present
+category: safety_information
+severity: major
+check_type: deterministic
+description: >
+  Pages with safety information should include: "You are encouraged to report negative side
+  effects of prescription drugs to the FDA. Visit www.fda.gov/medwatch, or call 1-800-FDA-1088."
+source:
+  citation: FD&C Act section 502(n), 21 U.S.C. 352(n)
+  url: https://www.law.cornell.edu/uscode/text/21/352
+  note: >
+    TODO the statute requires this statement in published direct-to-consumer advertisements;
+    confirm its application to websites with MLR. Accepts any dash style in the phone number.
+  last_verified: 2026-10-03
+params:
+  check: required-text
+  missing: the FDA adverse-event reporting statement (www.fda.gov/medwatch, 1-800-FDA-1088)
+  match: all
+  patterns:
+    - 'fda\.gov/medwatch'
+    - '1\s*[-‐‑–—]?\s*800\s*[-‐‑–—]?\s*FDA\s*[-‐‑–—]?\s*1088'
+  onlyIfHeadings:
+    - Important Safety Information
+    - Important Risk Information
+    - Selected Safety Information

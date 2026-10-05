@@ -1,0 +1,151 @@
+Proof Name,Version,Page,Comment ID,Comment,Reviewer,Reviewer Function,Status,Date,Brand,Country
+Placebrin Patient Website – Dosing,v3,4,C-0001,Headline reads like an advertisement for a consumer product; make it more measured.,Chris Donnelly,Brand/Marketing,Resolved,2024-12-22,Placebrin,DE
+Placebrin HCP Website – Dosing,v2,4,C-0002,Typo: 'asthama' should be 'asthma'.,Chris Donnelly,Brand/Marketing,Resolved,2024-11-01,Placebrin,US
+Fictorex HCP Website – Efficacy,v1,2,C-0003,Medication Guide link is missing from the ISI section.,Mei-Lin Zhou,Regulatory,Open,2024-06-20,Fictorex,CA
+Examplin Patient Website – Dosing,v1,4,C-0004,Efficacy bullets are bold and large while side effects are grey body text. Not fair balance.,Samuel Achterberg,Regulatory,Accepted,2026-03-04,Examplin,US
+Fictorex Patient Website – Savings,v2,5,C-0005,Medication Guide link is missing from the ISI section.,Tomas Lindqvist,Medical,Open,2024-08-05,Fictorex,US
+Examplin Patient Website – Efficacy,v4,2,C-0006,Add the adverse event reporting statement (MedWatch and 1-800 number) to the ISI.,Priya Ramaswamy,Medical,Resolved,2024-12-12,Examplin,CA
+Examplin Patient Website – Home,v1,1,C-0007,Medication Guide link is missing from the ISI section. Questions: jordan.reyes@fictionalpharma.example or +1 555-010-0199.,Tomas Lindqvist,Medical,Resolved,2024-07-10,Examplin,CA
+Examplin HCP Website – Home,v4,1,C-0008,A model release is required for the patient testimonial image.,Marcus Bellamy,Legal,Open,2026-05-09,Examplin,US
+Examplin Patient Website – Home,v4,1,C-0009,Risk information is in a much smaller font than the efficacy headline. Please rebalance.,Mei-Lin Zhou,Regulatory,Resolved,2024-11-09,Examplin,GB
+Demovia HCP Website – Home,v2,1,C-0010,"This copy implies use in children, which is outside the indication.",Elena Petrova,Regulatory,Resolved,2025-01-24,Demovia,US
+Fictorex HCP Website – Safety,v1,3,C-0011,Add the adverse event reporting statement (MedWatch and 1-800 number) to the ISI.,Elena Petrova,Regulatory,Accepted,2025-09-07,Fictorex,US
+Demovia HCP Website – Home,v4,1,C-0012,Add the adverse event reporting statement (MedWatch and 1-800 number) to the ISI.,Mei-Lin Zhou,Regulatory,Accepted,2026-06-22,Demovia,US
+Examplin HCP Website – FAQ,v2,6,C-0013,Reference 3 does not support the statement as written.,Priya Ramaswamy,Medical,Accepted,2025-02-14,Examplin,US
+Fictorex Patient Website – FAQ,v1,6,C-0014,Established name font size is less than half the size of the brand name.,Jordan Reyes,Legal,Resolved,2025-04-05,Fictorex,US
+Placebrin Patient Website – Efficacy,v2,2,C-0015,Tone is too casual for an HCP audience. Please revise.,Tomas Lindqvist,Medical,Rejected,2026-08-10,Placebrin,US
+Demovia Patient Website – Savings,v4,5,C-0016,Add the adverse event reporting statement (MedWatch and 1-800 number) to the ISI.,Samuel Achterberg,Regulatory,Rejected,2024-11-28,Demovia,DE
+Examplin HCP Website – FAQ,v4,6,C-0017,Tone is too casual for an HCP audience. Please revise.,Olivia Brandt,Brand/Marketing,Resolved,2024-12-10,Examplin,GB
+Fictorex HCP Website – Efficacy,v3,2,C-0018,"""Best-in-class"" is a superlative we cannot support. Remove.",Elena Petrova,Regulatory,Open,2024-07-17,Fictorex,US
+Placebrin HCP Website – Home,v1,1,C-0019,Comparative claim against a competitor requires head-to-head data. Remove or substantiate.,Mei-Lin Zhou,Regulatory,Resolved,2025-01-05,Placebrin,DE
+Demovia Patient Website – Efficacy,v4,2,C-0020,,Dana Whitfield,Medical,Resolved,2025-03-03,Demovia,US
+Demovia HCP Website – Dosing,v2,4,C-0021,"Please use sentence case for headings, per the style guide.",Chris Donnelly,Brand/Marketing,Open,2024-07-02,Demovia,US
+Examplin HCP Website – Efficacy,v2,2,C-0022,The mechanism-of-action video needs captions.,Aisha Karim,Brand/Marketing,Resolved,2024-03-12,Examplin,US
+Fictorex HCP Website – Efficacy,v1,2,C-0023,"""Best-in-class"" is a superlative we cannot support. Remove.",Jordan Reyes,Legal,Accepted,2026-06-17,Fictorex,US
+Fictorex Patient Website – Safety,v4,3,C-0024,Avoid exclamation marks in patient-facing copy.,Aisha Karim,Brand/Marketing,Rejected,2024-03-18,Fictorex,DE
+Fictorex HCP Website – Dosing,v3,4,C-0025,"This copy implies use in children, which is outside the indication.",Elena Petrova,Regulatory,Resolved,2024-11-07,Fictorex,US
+Placebrin Patient Website – FAQ,v4,6,C-0026,Footnote numbering is out of order; align it with the reference list.,Priya Ramaswamy,Medical,Open,2024-08-16,Placebrin,US
+Examplin HCP Website – Home,v1,1,C-0027,The hero banner presents benefits only; risks need comparable prominence on the Home page.,Elena Petrova,Regulatory,Resolved,2025-07-06,Examplin,US
+Examplin HCP Website – Savings,v3,5,C-0028,Bullet alignment is inconsistent in the efficacy section.,Olivia Brandt,Brand/Marketing,Resolved,2024-09-17,Examplin,GB
+Demovia HCP Website – Efficacy,v3,2,C-0029,Comparative claim against a competitor requires head-to-head data. Remove or substantiate.,Dana Whitfield,Medical,Resolved,2024-10-14,Demovia,DE
+Placebrin HCP Website – Dosing,v2,4,C-0030,Established name must accompany Placebrin at first mention.,Marcus Bellamy,Legal,Open,2026-04-19,Placebrin,DE
+Examplin Patient Website – Efficacy,v3,2,C-0031,Efficacy bullets are bold and large while side effects are grey body text. Not fair balance.,Priya Ramaswamy,Medical,Resolved,2024-09-20,Examplin,CA
+Demovia Patient Website – Home,v2,1,C-0032,Copyright year in the footer should be updated.,Marcus Bellamy,Legal,Resolved,2025-02-18,Demovia,US
+Demovia Patient Website – FAQ,v2,6,C-0033,Efficacy bullets are bold and large while side effects are grey body text. Not fair balance.,Elena Petrova,Regulatory,Open,2026-03-11,Demovia,GB
+Fictorex HCP Website – Safety,v2,3,C-0034,Reference 3 does not support the statement as written.,Dana Whitfield,Medical,Rejected,2024-07-14,Fictorex,US
+Placebrin Patient Website – Dosing,v1,4,C-0035,Boxed warning language is missing from the ISI on the Dosing page.,Samuel Achterberg,Regulatory,Resolved,2026-02-05,Placebrin,US
+Fictorex Patient Website – Home,v1,1,C-0036,Bullet alignment is inconsistent in the efficacy section.,Olivia Brandt,Brand/Marketing,Resolved,2024-01-04,Fictorex,US
+Examplin HCP Website – Savings,v1,5,C-0037,Job code is missing on this page.,Jordan Reyes,Legal,Rejected,2024-06-03,Examplin,US
+Examplin Patient Website – FAQ,v2,6,C-0038,"This copy implies use in children, which is outside the indication.",Mei-Lin Zhou,Regulatory,Accepted,2025-04-10,Examplin,US
+Fictorex Patient Website – Safety,v2,3,C-0039,Hero image on the Safety page needs alt text.,Dana Whitfield,Medical,Resolved,2025-12-14,Fictorex,US
+Examplin Patient Website – Efficacy,v4,2,C-0040,Established name font size is less than half the size of the brand name.,Aisha Karim,Brand/Marketing,Open,2025-05-06,Examplin,US
+Examplin HCP Website – FAQ,v3,6,C-0041,The mechanism-of-action video needs captions.,Tomas Lindqvist,Medical,Resolved,2024-08-15,Examplin,US
+Demovia Patient Website – Efficacy,v4,2,C-0042,Boxed warning language is missing from the ISI on the Efficacy page.,Elena Petrova,Regulatory,Rejected,2025-04-24,Demovia,GB
+Fictorex HCP Website – Efficacy,v4,2,C-0043,Savings card link returns an error page.,Dana Whitfield,Medical,Open,2026-01-31,Fictorex,US
+Placebrin Patient Website – FAQ,v1,6,C-0044,The FAQ page has no Important Safety Information. Please add the full ISI or a persistent ISI tray.,Mei-Lin Zhou,Regulatory,Open,2025-12-28,Placebrin,CA
+Demovia Patient Website – Dosing,v1,4,C-0045,Job code is missing on this page.,Hannah Okafor,Legal,Resolved,2025-02-31,Demovia,GB
+Fictorex Patient Website – Home,v3,1,C-0046,"""The only treatment that..."" is an absolute claim. Please revise.",Mei-Lin Zhou,Regulatory,Rejected,2026-05-12,Fictorex,US
+Placebrin HCP Website – Dosing,v1,4,C-0047,The 67% response claim needs a reference to the pivotal study.,Dana Whitfield,Medical,Resolved,2024-03-10,Placebrin,US
+Fictorex HCP Website – Efficacy,v4,2,C-0048,"""The only treatment that..."" is an absolute claim. Please revise.",Jordan Reyes,Legal,Resolved,2024-10-08,Fictorex,CA
+Placebrin HCP Website – Safety,v4,3,C-0049,The German translation of the ISI needs local regulatory sign-off.,Samuel Achterberg,Regulatory,Resolved,2024-03-14,Placebrin,DE
+Demovia HCP Website – Dosing,v2,4,C-0050,"""Works in days"" is not supported by the onset data in the PI.",Elena Petrova,Regulatory,Resolved,2024-01-19,Demovia,GB
+Fictorex Patient Website – Efficacy,v2,2,C-0051,Established name must accompany Fictorex at first mention.,Marcus Bellamy,Legal,Rejected,2025-12-05,Fictorex,US
+Placebrin Patient Website – Dosing,v3,4,C-0052,Please cite the PI section for the dosing statement on the Dosing page.,Dana Whitfield,Medical,Resolved,2024-03-05,Placebrin,GB
+Examplin HCP Website – Safety,v3,3,C-0053,ISI tray is collapsed by default on mobile and hides the risks. Keep it expanded.,Dana Whitfield,Medical,Resolved,2024-04-16,Examplin,US
+Placebrin Patient Website – Home,v4,1,C-0054,Hero image on the Home page needs alt text.,Samuel Achterberg,Regulatory,Resolved,2026-05-28,Placebrin,US
+Placebrin Patient Website – FAQ,v1,6,C-0055,Translated headline is longer than the layout allows and gets cut off.,Elena Petrova,Regulatory,Rejected,2024-08-21,Placebrin,US
+Examplin Patient Website – Savings,v1,5,C-0056,"""The only treatment that..."" is an absolute claim. Please revise.",Marcus Bellamy,Legal,Accepted,2025-11-26,Examplin,GB
+Fictorex Patient Website – Savings,v1,5,C-0057,The Savings page has no Important Safety Information. Please add the full ISI or a persistent ISI tray. Questions: jordan.reyes@fictionalpharma.example or +1 555-010-0199.,Mei-Lin Zhou,Regulatory,Rejected,2024-05-27,Fictorex,US
+Examplin Patient Website – Dosing,v3,4,C-0058,French Canadian version uses European French terms; please localize.,Elena Petrova,Regulatory,Resolved,2024-05-21,Examplin,US
+Fictorex HCP Website – Savings,v4,5,C-0059,Efficacy bullets are bold and large while side effects are grey body text. Not fair balance.,Tomas Lindqvist,Medical,Resolved,2025-06-30,Fictorex,US
+Placebrin Patient Website – Efficacy,v2,2,C-0060,Established name font size is less than half the size of the brand name.,Marcus Bellamy,Legal,Resolved,2025-07-10,Placebrin,US
+Examplin Patient Website – Savings,v4,5,C-0061,"""The only treatment that..."" is an absolute claim. Please revise.",Marcus Bellamy,Legal,Accepted,2024-11-23,Examplin,US
+Examplin Patient Website – FAQ,v2,6,C-0062,"This copy implies use in children, which is outside the indication.",Tomas Lindqvist,Medical,Resolved,2026-06-11,Examplin,CA
+Demovia HCP Website – Dosing,v2,4,C-0063,Contrast of the disclaimer text is too low to read.,Dana Whitfield,Medical,Resolved,2025-06-21,Demovia,US
+Placebrin Patient Website – Savings,v1,5,C-0064,Use the registered trademark symbol on the first prominent use of Placebrin.,Jordan Reyes,Legal,Accepted,2025-02-25,Placebrin,US
+Examplin HCP Website – FAQ,v3,6,C-0065,The FAQ page has no Important Safety Information. Please add the full ISI or a persistent ISI tray.,Tomas Lindqvist,Medical,Accepted,2024-01-14,Examplin,CA
+Demovia HCP Website – Home,v4,1,C-0066,Established name must accompany Demovia at first mention.,Chris Donnelly,Brand/Marketing,Open,2025-11-08,Demovia,DE
+Placebrin Patient Website – Savings,v3,5,C-0067,"""Best-in-class"" is a superlative we cannot support. Remove.",Dana Whitfield,Medical,Open,2025-09-29,Placebrin,US
+Demovia HCP Website – Efficacy,v3,2,C-0068,"""Best-in-class"" is a superlative we cannot support. Remove.",Jordan Reyes,Legal,Resolved,2026-05-06,Demovia,DE
+Demovia HCP Website – Savings,v1,5,C-0069,Avoid exclamation marks in patient-facing copy.,Aisha Karim,Brand/Marketing,Resolved,2025-09-29,Demovia,US
+Examplin Patient Website – Safety,v3,3,C-0070,"""Works in days"" is not supported by the onset data in the PI.",Hannah Okafor,Legal,Accepted,2025-04-25,Examplin,GB
+Demovia HCP Website – Efficacy,v2,2,C-0071,Bullet alignment is inconsistent in the efficacy section.,Chris Donnelly,Brand/Marketing,Resolved,2024-08-03,Demovia,DE
+Fictorex HCP Website – Dosing,v2,4,C-0072,Footnote numbering is out of order; align it with the reference list.,Tomas Lindqvist,Medical,Accepted,2024-01-29,Fictorex,GB
+Examplin Patient Website – Dosing,v3,4,C-0073,Comparative claim against a competitor requires head-to-head data. Remove or substantiate.,Mei-Lin Zhou,Regulatory,Rejected,2024-06-10,Examplin,US
+Demovia Patient Website – Home,v2,1,C-0074,Medication Guide link is missing from the ISI section.,Dana Whitfield,Medical,Rejected,2024-02-27,Demovia,GB
+Demovia Patient Website – Home,v1,1,C-0075,"""The only treatment that..."" is an absolute claim. Please revise.",Jordan Reyes,Legal,Accepted,2026-07-11,Demovia,DE
+Examplin HCP Website – Home,v2,1,C-0076,Headline reads like an advertisement for a consumer product; make it more measured.,Dana Whitfield,Medical,Rejected,2026-01-08,Examplin,DE
+Fictorex HCP Website – Dosing,v3,4,C-0077,Boxed warning language is missing from the ISI on the Dosing page.,Priya Ramaswamy,Medical,Resolved,2024-11-18,Fictorex,US
+Fictorex HCP Website – Efficacy,v4,2,C-0078,Add the adverse event reporting statement (MedWatch and 1-800 number) to the ISI.,Samuel Achterberg,Regulatory,Accepted,2025-12-23,Fictorex,US
+Demovia Patient Website – Savings,v2,5,C-0079,The 71% response claim needs a reference to the pivotal study.,Tomas Lindqvist,Medical,Rejected,2025-12-06,Demovia,US
+Placebrin HCP Website – Safety,v2,3,C-0080,The Safety page has no Important Safety Information. Please add the full ISI or a persistent ISI tray.,Priya Ramaswamy,Medical,Pending?,2024-10-13,Placebrin,US
+Placebrin HCP Website – Savings,v4,5,C-0081,"""Best-in-class"" is a superlative we cannot support. Remove.",Elena Petrova,Regulatory,Resolved,2026-09-13,Placebrin,US
+Fictorex Patient Website – Home,v1,1,C-0082,"""Works in days"" is not supported by the onset data in the PI.",Mei-Lin Zhou,Regulatory,Resolved,2024-05-26,Fictorex,CA
+Fictorex HCP Website – FAQ,v3,6,C-0083,A model release is required for the patient testimonial image.,Hannah Okafor,Legal,Resolved,2024-01-07,Fictorex,GB
+Examplin HCP Website – Efficacy,v4,2,C-0084,The 61% response claim needs a reference to the pivotal study.,Tomas Lindqvist,Medical,Rejected,2024-12-02,Examplin,US
+Placebrin HCP Website – Savings,v3,5,C-0085,External link to the patient support site is broken.,Mei-Lin Zhou,Regulatory,Rejected,2024-12-19,Placebrin,US
+Placebrin Patient Website – Savings,v3,5,C-0086,ISI is only linked from the footer on the Savings page; it needs to appear on the page itself.,Mei-Lin Zhou,Regulatory,Resolved,2025-02-11,Placebrin,DE
+Placebrin Patient Website – Home,v1,1,C-0087,Medication Guide link is missing from the ISI section.,Mei-Lin Zhou,Regulatory,Accepted,2025-07-02,Placebrin,CA
+Examplin Patient Website – FAQ,v3,6,C-0088,Bullet alignment is inconsistent in the efficacy section.,Chris Donnelly,Brand/Marketing,Resolved,2026-06-04,Examplin,CA
+Examplin Patient Website – Home,v4,1,C-0089,Established name font size is less than half the size of the brand name.,Hannah Okafor,Legal,Accepted,2026-07-28,Examplin,GB
+Placebrin Patient Website – Savings,v4,5,C-0090,Confirm we have licensing rights for this stock photo.,Hannah Okafor,Legal,Accepted,2026-03-01,Placebrin,US
+Examplin HCP Website – Safety,v3,3,C-0091,"Please use sentence case for headings, per the style guide.",Olivia Brandt,Brand/Marketing,Open,2026-06-14,Examplin,US
+Demovia Patient Website – Dosing,v2,4,C-0092,Risk information is in a much smaller font than the efficacy headline. Please rebalance.,Samuel Achterberg,Regulatory,Open,2024-01-30,Demovia,US
+Fictorex Patient Website – Efficacy,v4,2,C-0093,ISI tray is collapsed by default on mobile and hides the risks. Keep it expanded.,Mei-Lin Zhou,Regulatory,Open,2026-03-03,Fictorex,GB
+Fictorex Patient Website – Dosing,v3,4,C-0094,Footnote numbering is out of order; align it with the reference list.,Priya Ramaswamy,Medical,Resolved,2026-02-08,Fictorex,US
+Demovia HCP Website – FAQ,v1,6,C-0095,The FAQ page has no Important Safety Information. Please add the full ISI or a persistent ISI tray.,Elena Petrova,Regulatory,Rejected,2026-01-09,Demovia,CA
+Placebrin Patient Website – Home,v1,1,C-0096,The Home page has no Important Safety Information. Please add the full ISI or a persistent ISI tray.,Elena Petrova,Regulatory,Open,2024-01-23,Placebrin,US
+Fictorex Patient Website – Home,v4,1,C-0097,Confirm we have licensing rights for this stock photo.,Hannah Okafor,Legal,Open,2026-01-08,Fictorex,CA
+Demovia HCP Website – FAQ,v2,6,C-0098,Established name font size is less than half the size of the brand name.,Aisha Karim,Brand/Marketing,Rejected,2024-02-03,Demovia,US
+Demovia HCP Website – Efficacy,v1,2,C-0099,Typo: 'asthama' should be 'asthma'.,Chris Donnelly,Brand/Marketing,Open,2024-10-26,Demovia,CA
+Placebrin HCP Website – Dosing,v4,4,C-0100,"""Best-in-class"" is a superlative we cannot support. Remove.",Elena Petrova,Regulatory,Accepted,2026-06-26,Placebrin,US
+Demovia HCP Website – Home,v2,1,C-0101,ISI tray is collapsed by default on mobile and hides the risks. Keep it expanded.,Samuel Achterberg,Regulatory,Open,2026-03-05,Demovia,GB
+Placebrin HCP Website – Savings,v3,5,C-0102,"This copy implies use in children, which is outside the indication.",Samuel Achterberg,Regulatory,Accepted,2025-04-25,Placebrin,US
+Examplin HCP Website – Efficacy,v3,2,C-0103,Image appears to be from a previous campaign; check usage rights have not expired.,Jordan Reyes,Legal,Rejected,2026-02-20,Examplin,CA
+Demovia HCP Website – Efficacy,v1,2,C-0104,ISI tray is collapsed by default on mobile and hides the risks. Keep it expanded.,Samuel Achterberg,Regulatory,Accepted,2024-04-05,Demovia,US
+Fictorex HCP Website – Dosing,v4,4,C-0105,ISI tray is collapsed by default on mobile and hides the risks. Keep it expanded.,Samuel Achterberg,Regulatory,Resolved,2024-04-20,Fictorex,GB
+Fictorex Patient Website – Home,v4,1,C-0106,Boxed warning language is missing from the ISI on the Home page.,Mei-Lin Zhou,Regulatory,Accepted,2025-09-12,Fictorex,US
+Examplin Patient Website – Efficacy,v3,2,C-0107,Job code is missing on this page. Questions: jordan.reyes@fictionalpharma.example or +1 555-010-0199.,Hannah Okafor,Legal,Accepted,2024-06-14,Examplin,US
+Placebrin HCP Website – Savings,v4,5,C-0108,Typo: 'asthama' should be 'asthma'.,Chris Donnelly,Brand/Marketing,Resolved,2026-04-13,Placebrin,US
+Fictorex Patient Website – Safety,v3,3,C-0109,The German translation of the ISI needs local regulatory sign-off.,Samuel Achterberg,Regulatory,Resolved,2025-11-08,Fictorex,US
+Demovia HCP Website – Home,v4,1,C-0110,Use the registered trademark symbol on the first prominent use of Demovia.,Marcus Bellamy,Legal,Open,2025-06-01,,GB
+Placebrin Patient Website – Home,v4,1,C-0111,Medication Guide link is missing from the ISI section.,Samuel Achterberg,Regulatory,Resolved,2026-06-10,Placebrin,US
+Examplin Patient Website – Dosing,v3,4,C-0112,Savings card link returns an error page.,Samuel Achterberg,Regulatory,Accepted,2025-05-13,Examplin,GB
+Demovia Patient Website – FAQ,v3,6,C-0113,Add the adverse event reporting statement (MedWatch and 1-800 number) to the ISI.,Priya Ramaswamy,Medical,Accepted,2025-08-10,Demovia,US
+Fictorex Patient Website – Efficacy,v4,2,C-0114,Job code is missing on this page.,Marcus Bellamy,Legal,Accepted,2025-08-05,Fictorex,US
+Placebrin HCP Website – Savings,v2,5,C-0115,"""Works in days"" is not supported by the onset data in the PI.",Tomas Lindqvist,Medical,Resolved,2024-05-26,Placebrin,US
+Fictorex Patient Website – Efficacy,v4,2,C-0116,"This copy implies use in children, which is outside the indication.",Marcus Bellamy,Legal,Rejected,2024-05-30,Fictorex,DE
+Fictorex HCP Website – Dosing,v3,4,C-0117,"""The only treatment that..."" is an absolute claim. Please revise.",Tomas Lindqvist,Medical,Accepted,2026-04-12,Fictorex,DE
+Fictorex HCP Website – Savings,v2,5,C-0118,Prescribing Information link points to an outdated version of the PI.,Tomas Lindqvist,Medical,Resolved,2026-03-12,Fictorex,US
+Examplin Patient Website – Dosing,v2,4,C-0119,Contrast of the disclaimer text is too low to read.,Marcus Bellamy,Legal,Resolved,2024-03-03,Examplin,GB
+Fictorex HCP Website – Dosing,v1,4,C-0120,Established name must accompany Fictorex at first mention.,Marcus Bellamy,Legal,Accepted,2024-08-28,Fictorex,US
+Demovia HCP Website – Efficacy,v1,2,C-0121,"""The only treatment that..."" is an absolute claim. Please revise.",Hannah Okafor,Legal,Rejected,2024-07-12,Demovia,US
+Fictorex HCP Website – Safety,v3,3,C-0122,External link to the patient support site is broken.,Chris Donnelly,Brand/Marketing,Resolved,2025-09-24,Fictorex,US
+Demovia Patient Website – Home,v3,1,C-0123,Please cite the PI section for the dosing statement on the Home page.,Tomas Lindqvist,Medical,Accepted,2024-09-07,Demovia,GB
+Demovia Patient Website – FAQ,v3,6,C-0124,Hero image on the FAQ page needs alt text.,Priya Ramaswamy,Medical,Resolved,2025-03-16,Demovia,US
+Examplin HCP Website – Safety,v4,3,C-0125,The hero banner presents benefits only; risks need comparable prominence on the Safety page.,Priya Ramaswamy,Medical,Open,2024-03-23,Examplin,US
+Fictorex HCP Website – Dosing,v4,4,C-0126,"""Best-in-class"" is a superlative we cannot support. Remove.",Elena Petrova,Regulatory,Resolved,2026-08-07,Fictorex,US
+Fictorex Patient Website – Home,v1,1,C-0127,French Canadian version uses European French terms; please localize.,Elena Petrova,Regulatory,Open,2025-03-16,Fictorex,US
+Placebrin HCP Website – Efficacy,v1,2,C-0128,The hero banner presents benefits only; risks need comparable prominence on the Efficacy page.,Samuel Achterberg,Regulatory,Resolved,2026-08-23,Placebrin,CA
+Fictorex HCP Website – Home,v4,1,C-0129,Image appears to be from a previous campaign; check usage rights have not expired.,Hannah Okafor,Legal,Rejected,2025-04-27,Fictorex,US
+Examplin Patient Website – Dosing,v4,4,C-0130,Hero image on the Dosing page needs alt text.,Chris Donnelly,Brand/Marketing,Resolved,2024-05-25,Examplin,US
+Placebrin HCP Website – Dosing,v4,4,C-0131,External link to the patient support site is broken.,Elena Petrova,Regulatory,Rejected,2025-02-21,Placebrin,US
+Fictorex Patient Website – Efficacy,v4,2,C-0132,Translated headline is longer than the layout allows and gets cut off.,Elena Petrova,Regulatory,Resolved,2025-02-23,Fictorex,CA
+Demovia Patient Website – Efficacy,v4,2,C-0133,Boxed warning language is missing from the ISI on the Efficacy page.,Mei-Lin Zhou,Regulatory,Open,2026-07-14,Demovia,US
+Fictorex HCP Website – Dosing,v4,4,C-0134,"This copy implies use in children, which is outside the indication.",Dana Whitfield,Medical,Accepted,2024-09-04,Fictorex,DE
+Placebrin Patient Website – Savings,v1,5,C-0135,"""Best-in-class"" is a superlative we cannot support. Remove.",Mei-Lin Zhou,Regulatory,Open,2024-04-18,Placebrin,CA
+Demovia Patient Website – Savings,v4,5,C-0136,"This copy implies use in children, which is outside the indication.",Samuel Achterberg,Regulatory,Rejected,2024-03-18,Demovia,US
+Fictorex Patient Website – Safety,v1,3,C-0137,"""The only treatment that..."" is an absolute claim. Please revise.",Priya Ramaswamy,Medical,Resolved,2026-05-29,Fictorex,DE
+Examplin HCP Website – Dosing,v1,4,C-0138,Headline reads like an advertisement for a consumer product; make it more measured.,Aisha Karim,Brand/Marketing,Rejected,2024-12-08,Examplin,US
+Fictorex HCP Website – Efficacy,v4,2,C-0139,"""Works in days"" is not supported by the onset data in the PI.",Jordan Reyes,Legal,Resolved,2025-01-26,Fictorex,DE
+Fictorex HCP Website – Dosing,v2,4,C-0140,Please cite the PI section for the dosing statement on the Dosing page.,Priya Ramaswamy,Medical,Resolved,2024-05-18,Fictorex,CA
+Demovia HCP Website – Safety,v4,3,C-0141,"""The only treatment that..."" is an absolute claim. Please revise.",Hannah Okafor,Legal,Rejected,2024-05-30,Demovia,GB
+Demovia Patient Website – FAQ,v2,6,C-0142,Typo: 'asthama' should be 'asthma'.,Aisha Karim,Brand/Marketing,Resolved,2025-12-23,Demovia,US
+Demovia HCP Website – Dosing,v3,4,C-0143,Image appears to be from a previous campaign; check usage rights have not expired.,Marcus Bellamy,Legal,Resolved,2026-08-19,Demovia,DE
+Demovia Patient Website – Savings,v1,5,C-0144,Comparative claim against a competitor requires head-to-head data. Remove or substantiate.,Jordan Reyes,Legal,Resolved,2025-11-10,Demovia,GB
+Fictorex Patient Website – Safety,v4,3,C-0145,Please cite the PI section for the dosing statement on the Safety page.,Dana Whitfield,Medical,Resolved,2025-11-10,Fictorex,CA
+Examplin HCP Website – Home,v2,1,C-0146,The 68% response claim needs a reference to the pivotal study.,Tomas Lindqvist,Medical,Resolved,2024-02-21,Examplin,CA
+Examplin Patient Website – FAQ,v1,6,C-0147,A model release is required for the patient testimonial image.,Marcus Bellamy,Legal,Accepted,2024-08-14,Examplin,US
+Fictorex Patient Website – Efficacy,v2,2,C-0148,Savings card link returns an error page.,Priya Ramaswamy,Medical,Accepted,2025-08-28,Fictorex,US
+Placebrin Patient Website – FAQ,v1,6,C-0149,"""The only treatment that..."" is an absolute claim. Please revise.",Hannah Okafor,Legal,Rejected,2024-08-09,Placebrin,CA
+Demovia HCP Website – Home,v2,1,C-0010,"This copy implies use in children, which is outside the indication.",Elena Petrova,Regulatory,Resolved,2025-01-24,Demovia,US

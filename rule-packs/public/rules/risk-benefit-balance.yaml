@@ -1,0 +1,20 @@
+id: risk-benefit-balance
+version: 2
+title: Risks and benefits are presented in fair balance
+category: fair_balance
+severity: critical
+check_type: llm
+description: >
+  Benefit claims must be balanced by risk information of comparable prominence and readability
+  (typography, layout, contrast, headlines, white space).
+source:
+  citation: 21 CFR 202.1(e)(5)(ii) and (e)(7)(viii); FDA draft guidance "Presenting Risk Information in Prescription Drug and Medical Device Promotion" (May 2009)
+  url: https://www.law.cornell.edu/cfr/text/21/202.1
+  note: 'Guidance: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/presenting-risk-information-prescription-drug-and-medical-device-promotion'
+  last_verified: 2026-10-03
+prompt_template: |
+  Assess whether this page presents risk information with prominence and readability reasonably
+  comparable to its benefit or effectiveness claims. Consider typography, layout, contrast,
+  headlines, placement and white space, using the screenshot as well as the text.
+  Flag specific benefit claims that are emphasised far more than the related risk information,
+  quoting the claim exactly from the page text. If the presentation looks balanced, return no findings.

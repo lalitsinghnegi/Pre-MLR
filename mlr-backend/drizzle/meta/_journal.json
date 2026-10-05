@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791063251863,
+      "tag": "0000_init_scans_pages",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791064647385,
+      "tag": "0001_rules_findings_audit",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791064647769,
+      "tag": "0002_audit_log_append_only",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791065159652,
+      "tag": "0003_page_facts_link_checks",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791068529469,
+      "tag": "0004_llm_analyses_scan_phase",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1791069989490,
+      "tag": "0005_precedents",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1791132291316,
+      "tag": "0006_precedent_classifications",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1791133244559,
+      "tag": "0007_precedent_retrieval",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1791134525700,
+      "tag": "0008_auth",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1791140703822,
+      "tag": "0009_link_check_unverified",
+      "breakpoints": true
+    }
+  ]
+}

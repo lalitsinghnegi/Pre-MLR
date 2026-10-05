@@ -1,0 +1,19 @@
+id: established-name
+version: 1
+title: Established name accompanies the brand name
+category: branding
+severity: major
+check_type: deterministic
+description: >
+  Where the proprietary (brand) name appears, the established name must accompany it. Needs the
+  scan's product profile; skipped without one.
+source:
+  citation: 21 CFR 202.1(b)(1); FDA guidance "Product Name Placement, Size, and Prominence in Advertising and Promotional Labeling" (final, Dec 2017)
+  url: https://www.law.cornell.edu/cfr/text/21/202.1
+  note: >
+    Checks presence on the page only. TODO check placement and size (at least half the size of the
+    brand name). Guidance: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/product-name-placement-size-and-prominence-advertising-and-promotional-labeling-final
+  last_verified: 2026-10-03
+params:
+  check: brand-names
+  requirement: established-name

@@ -1,0 +1,31 @@
+/* Examplin fictional test site. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; color: #222; background: #fff; }
+a { color: #0055aa; }
+.fiction-banner { background: #fff3cd; color: #5c4400; text-align: center; font-size: 13px; padding: 6px 16px; }
+.site-header { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 12px 40px; border-bottom: 1px solid #dde3ea; flex-wrap: wrap; }
+.site-header nav { display: flex; gap: 20px; flex-wrap: wrap; }
+.site-header nav a { text-decoration: none; color: #1d3557; font-weight: 600; }
+.site-header nav a[aria-current="page"] { border-bottom: 2px solid #2a9d8f; }
+main { max-width: 960px; margin: 0 auto; padding: 32px 40px; }
+h1 { font-size: 36px; color: #1d3557; margin: 0 0 16px; }
+.hero { background: #e8f4f2; border-radius: 12px; padding: 32px; margin-bottom: 24px; }
+.hero img { display: block; max-width: 100%; height: auto; margin-top: 16px; border-radius: 8px; }
+.lead { font-size: 20px; }
+.refs { font-size: 13px; color: #444; }
+.benefit-hero { background: #1d3557; color: #fff; border-radius: 12px; padding: 48px 32px; margin-bottom: 32px; }
+.benefit-hero h1 { color: #fff; font-size: 48px; }
+.benefit-list { font-size: 28px; font-weight: 700; }
+.isi { max-width: 960px; margin: 0 auto 32px; padding: 24px 40px; background: #f6f6f6; border-top: 4px solid #1d3557; }
+.isi h2 { font-size: 22px; color: #1d3557; margin-top: 0; }
+.isi h3 { font-size: 17px; margin-bottom: 4px; }
+.isi .fine-print { font-size: 9px; color: #b0b0b0; }
+.isi-compact { background: #fff; border-top: 1px solid #ddd; color: #555; font-size: 12px; }
+.isi-compact h2 { font-size: 12px; color: #555; }
+.isi-compact h3 { font-size: 12px; }
+.site-footer { border-top: 1px solid #dde3ea; padding: 24px 40px; font-size: 14px; color: #444; }
+@media (max-width: 600px) {
+  .site-header, main, .isi, .site-footer { padding-left: 16px; padding-right: 16px; }
+  h1 { font-size: 28px; }
+  .benefit-hero h1 { font-size: 34px; }
+}

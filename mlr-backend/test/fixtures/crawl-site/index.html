@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | Crawl Fixture</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 1rem;
+      }
+      nav a {
+        margin-right: 1rem;
+      }
+      @media (max-width: 600px) {
+        nav a {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Crawl fixture home</h1>
+    <nav>
+      <a href="/about">About</a>
+      <a href="/products/">Products</a>
+      <a href="/products#top">Products again (fragment)</a>
+      <a href="/about/">About again (trailing slash)</a>
+      <a href="https://external.example.com/">External site</a>
+      <a href="mailto:info@example.com">Email us</a>
+      <a href="tel:+15555550100">Call us</a>
+      <a href="/files/brochure.pdf">Brochure (PDF)</a>
+      <a href="/private/secret">Private area</a>
+      <a href="/missing">Broken link</a>
+      <a href="/about" aria-label="About us (icon)"><img src="data:," alt="" /></a>
+    </nav>
+    <p>Welcome to the fixture site used by crawler tests.</p>
+  </body>
+</html>

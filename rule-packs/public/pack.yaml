@@ -1,0 +1,20 @@
+# Public rule pack for the Pre-MLR Checker prototype.
+# Built from public sources only (21 CFR 202.1, public FDA guidance, WCAG, state privacy law).
+# Rules are immutable once loaded: to change one, edit its file AND increase its `version`.
+name: public
+version: '1.0'
+description: >
+  Starter rules for pre-MLR review of US prescription-drug websites. Advisory only; not a
+  substitute for MLR review. Replace with the company's approved rules before real use.
+defaults:
+  # Page-level rules skip these paths unless a rule sets its own `excludePaths`.
+  excludePaths:
+    - /privacy
+    - /privacy-policy
+    - /terms
+    - /terms-of-use
+    - /cookie-policy
+    - /legal
+    - /sitemap
+    - /contact
+    - /accessibility

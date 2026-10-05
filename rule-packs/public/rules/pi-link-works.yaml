@@ -1,0 +1,18 @@
+id: pi-link-works
+version: 1
+title: Prescribing Information link works
+category: links
+severity: critical
+check_type: deterministic
+description: Links to the Prescribing Information must resolve (no 4xx/5xx or network errors).
+source:
+  citation: FDA draft guidance "Brief Summary and Adequate Directions for Use - Disclosing Risk Information in Consumer-Directed Print Advertisements and Promotional Labeling for Prescription Drugs" (Revision 2, Aug 2015)
+  url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/brief-summary-and-adequate-directions-use-disclosing-risk-information-consumer-directed-print
+  note: TODO confirm how the brief-summary / adequate-directions expectations apply to websites.
+  last_verified: 2026-10-03
+params:
+  check: required-link
+  name: Prescribing Information
+  mode: resolves
+  linkText: [Prescribing Information]
+  hrefContains: [prescribing-information, prescribing_information]

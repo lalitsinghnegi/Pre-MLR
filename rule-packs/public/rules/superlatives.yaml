@@ -1,0 +1,38 @@
+id: superlatives
+version: 1
+title: No unsupported absolute or superlative language
+category: claims
+severity: major
+check_type: deterministic
+description: >
+  Absolute or superlative terms suggest a drug is better, safer or more effective than demonstrated
+  by substantial evidence. Matches are flagged for review; the phrase list is editable.
+source:
+  citation: 21 CFR 202.1(e)(6)(i)
+  url: https://www.law.cornell.edu/cfr/text/21/202.1
+  last_verified: 2026-10-03
+params:
+  check: phrase-list
+  label: Absolute or superlative language
+  phrases:
+    - best
+    - safest
+    - the only
+    - first and only
+    - '#1'
+    - number one
+    - guaranteed
+    - guarantee
+    - cure
+    - cures
+    - miracle
+    - breakthrough
+    - revolutionary
+    - '100%'
+    - completely safe
+    - totally safe
+    - no side effects
+    - risk-free
+    - unsurpassed
+    - unmatched
+  skipRegions: [nav]

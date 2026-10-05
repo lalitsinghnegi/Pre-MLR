@@ -1,0 +1,14 @@
+# Models the evaluation harness can run (npm run eval -w mlr-backend).
+# Only `mock` runs by default. Real models run only when named with --models AND --yes, because
+# they send the fictional Examplin pages to the Anthropic API and cost money.
+#
+# Fields: id (your label), provider (mock | anthropic), model, effort (low|medium|high|xhigh|max,
+# or null to omit; Claude Haiku 4.5 rejects effort), fallback (server-side refusal fallback,
+# Claude API only; default false here so each row measures one model).
+default: [mock]
+models:
+  - { id: mock, provider: mock }
+  - { id: opus-high, provider: anthropic, model: claude-opus-5-5, effort: high }
+  - { id: opus-medium, provider: anthropic, model: claude-opus-5-5, effort: medium }
+  - { id: sonnet, provider: anthropic, model: claude-sonnet-5-5, effort: high }
+  - { id: haiku, provider: anthropic, model: claude-haiku-4-5, effort: null }

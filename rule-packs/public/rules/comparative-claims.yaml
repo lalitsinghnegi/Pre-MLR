@@ -1,0 +1,31 @@
+id: comparative-claims
+version: 1
+title: Comparative claims are flagged for review
+category: claims
+severity: major
+check_type: deterministic
+description: >
+  Comparisons with other treatments must be supported by substantial evidence. Comparative wording
+  is flagged for reviewer confirmation; the phrase list is editable.
+source:
+  citation: 21 CFR 202.1(e)(6)(ii)
+  url: https://www.law.cornell.edu/cfr/text/21/202.1
+  last_verified: 2026-10-03
+params:
+  check: phrase-list
+  label: Comparative claim
+  phrases:
+    - better than
+    - more effective than
+    - works faster than
+    - safer than
+    - superior to
+    - outperforms
+    - outperformed
+    - compared with
+    - compared to
+    - versus
+    - vs.
+    - head-to-head
+  skipRegions: [nav]
+  suggestedFix: Confirm the comparison is supported by adequate head-to-head evidence and referenced, or remove it.

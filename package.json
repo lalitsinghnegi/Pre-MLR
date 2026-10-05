@@ -1,0 +1,29 @@
+{
+  "name": "pre-mlr-checker",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/shared",
+    "mlr-backend",
+    "mlr-frontend"
+  ],
+  "scripts": {
+    "postinstall": "npm run build -w packages/shared",
+    "dev": "concurrently -n shared,mlr-backend,mlr-frontend -c gray,blue,green \"npm run dev -w packages/shared\" \"npm run dev -w mlr-backend\" \"npm run dev -w mlr-frontend\"",
+    "build": "npm run build -w packages/shared && npm run build -w mlr-backend && npm run build -w mlr-frontend",
+    "test": "npm test -w mlr-backend && npm test -w mlr-frontend",
+    "coverage": "npm run coverage -w mlr-backend && npm run coverage -w mlr-frontend",
+    "lint": "npm run lint -w mlr-backend && npm run lint -w mlr-frontend",
+    "typecheck": "npm run typecheck -w mlr-backend && npm run typecheck -w mlr-frontend",
+    "format": "prettier --write .",
+    "serve:examplin": "npm run serve:examplin -w mlr-backend"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5",
+    "prettier": "^3.9.9",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

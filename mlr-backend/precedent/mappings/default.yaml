@@ -1,0 +1,35 @@
+# Column mapping for a proofing-tool comment export (the synthetic dataset uses this layout).
+# Copy this file to support another export: change the header names on the right, the value
+# maps, and the date formats. Header matching ignores case and surrounding spaces.
+name: default
+# Worksheet name for .xlsx files (first sheet if omitted). Ignored for .csv.
+sheet: Comments
+columns:
+  # Required
+  commentText: Comment
+  date: Date
+  brand: Brand
+  # Optional
+  sourceCommentId: Comment ID
+  proofName: Proof Name
+  proofVersion: Version
+  page: Page
+  reviewer: Reviewer
+  reviewerFunction: Reviewer Function
+  status: Status
+  country: Country
+  # site: Site            # if the export has a site/URL column; otherwise pass --site
+dateFormats: [YYYY-MM-DD, MM/DD/YYYY]
+values:
+  status:
+    Open: open
+    Resolved: resolved
+    Accepted: accepted
+    Rejected: rejected
+    Closed: resolved
+  reviewerFunction:
+    Medical: medical
+    Legal: legal
+    Regulatory: regulatory
+    Brand/Marketing: commercial
+    Marketing: commercial

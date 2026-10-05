@@ -1,0 +1,28 @@
+id: unreferenced-claims
+version: 1
+title: Numeric efficacy claims are referenced
+category: references
+severity: major
+check_type: deterministic
+description: >
+  Quantitative claims (percentages, multiples, "n out of n", p-values) should carry a reference to
+  the supporting evidence. Flags such sentences with no superscript, *, †, ‡, § or [n] marker.
+  The ISI, navigation and footer are skipped.
+source:
+  citation: 21 CFR 202.1(e)(6)(i) (substantial evidence); FDA guidance "Presenting Quantitative Efficacy and Risk Information in Direct-to-Consumer (DTC) Promotional Labeling and Advertisements" (final, Dec 2023)
+  url: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/presenting-quantitative-efficacy-and-risk-information-direct-consumer-dtc-promotional-labeling-and
+  note: TODO the reference-marker convention is MLR practice, not a regulatory requirement.
+  last_verified: 2026-10-03
+params:
+  check: numeric-claims
+  patterns:
+    - '\d+(?:\.\d+)?\s?%'
+    - '\b\d+(?:\.\d+)?\s?(?:x|times)\s+(?:more|less|greater|higher|lower|better|faster|fewer)\b'
+    - '\b\d+\s+(?:out\s+)?of\s+(?:every\s+)?\d+\b'
+    - '\bp\s?[<=≤]\s?0?\.\d+'
+  markerPattern: '[*†‡§¶]|\[\d+(?:[,–-]\d+)*\]'
+  skipSections:
+    - Important Safety Information
+    - Important Risk Information
+    - Selected Safety Information
+  skipRegions: [nav, footer]

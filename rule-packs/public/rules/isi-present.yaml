@@ -1,0 +1,24 @@
+id: isi-present
+version: 1
+title: Important Safety Information is present
+category: safety_information
+severity: critical
+check_type: deterministic
+description: >
+  Each product page should include the Important Safety Information (ISI) so that risk information
+  accompanies benefit claims.
+source:
+  citation: 21 CFR 202.1(e)(5)(ii) (fair balance); FDA draft guidance "Presenting Risk Information in Prescription Drug and Medical Device Promotion" (May 2009)
+  url: https://www.law.cornell.edu/cfr/text/21/202.1
+  note: >
+    TODO: "ISI on every page" is industry practice rather than a literal regulatory requirement;
+    confirm scope with MLR. Guidance: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/presenting-risk-information-prescription-drug-and-medical-device-promotion
+  last_verified: 2026-10-03
+params:
+  check: required-heading
+  headings:
+    - Important Safety Information
+    - Important Risk Information
+    - Selected Safety Information
+    - Important Safety Info
+  suggestedFix: Add the Important Safety Information section (or a persistent ISI tray) to this page.

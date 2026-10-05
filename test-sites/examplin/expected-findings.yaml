@@ -1,0 +1,80 @@
+# What the Pre-MLR Checker should flag on the fictional Examplin site.
+# Each entry: page path, rule id, optional `evidence` (case-insensitive substring of the finding's
+# evidence text), and who should detect it. `rules_engine` entries are compared exactly by
+# test/examplin.test.ts; `llm` entries are scored by the evaluation harness (Prompt 10).
+site: examplin
+product:
+  brandNames: [Examplin]
+  establishedName: examplitide
+# Off by default in the public pack; this site has a Medication Guide, so the scan enables it.
+enableRules: [med-guide-link]
+# Pages that must produce no findings at all (false-positive controls).
+cleanPages: [/how-it-works, /privacy]
+
+expected:
+  # Home
+  - { page: /, rule: superlatives, evidence: 'the best inhaler', detectedBy: rules_engine }
+  - { page: /, rule: unreferenced-claims, evidence: '75% of patients', detectedBy: rules_engine }
+  - { page: /, rule: alt-text, evidence: 'hero.png', detectedBy: rules_engine }
+
+  # Clinical results ("62% ... ¹" is referenced and must NOT be flagged)
+  - { page: /results, rule: unreferenced-claims, evidence: '2 out of 3', detectedBy: rules_engine }
+  - {
+      page: /results,
+      rule: comparative-claims,
+      evidence: 'more effective than Brand X',
+      detectedBy: rules_engine,
+    }
+  - { page: /results, rule: ae-reporting-statement, detectedBy: rules_engine }
+
+  # Side effects
+  - {
+      page: /side-effects,
+      rule: isi-readability,
+      evidence: 'Other side effects may include',
+      detectedBy: rules_engine,
+    }
+
+  # Savings
+  - { page: /savings, rule: isi-present, detectedBy: rules_engine }
+  - { page: /savings, rule: pi-link-present, detectedBy: rules_engine }
+  - { page: /savings, rule: med-guide-link, detectedBy: rules_engine }
+  - {
+      page: /savings,
+      rule: trademark-symbol,
+      evidence: 'Examplin Savings Card',
+      detectedBy: rules_engine,
+    }
+  - {
+      page: /savings,
+      rule: established-name,
+      evidence: 'Examplin Savings Card',
+      detectedBy: rules_engine,
+    }
+
+  # Dosing
+  - {
+      page: /dosing,
+      rule: pi-link-works,
+      evidence: 'prescribing-information-2019.pdf',
+      detectedBy: rules_engine,
+    }
+  - {
+      page: /dosing,
+      rule: broken-links,
+      evidence: 'prescribing-information-2019.pdf',
+      detectedBy: rules_engine,
+    }
+  - {
+      page: /dosing,
+      rule: broken-links,
+      evidence: 'support.examplin.invalid',
+      detectedBy: rules_engine,
+    }
+  - { page: /dosing, rule: off-label-implied, evidence: 'seasonal allergies', detectedBy: llm }
+
+  # FAQ
+  - { page: /faq, rule: superlatives, evidence: 'Guaranteed relief', detectedBy: rules_engine }
+  - { page: /faq, rule: privacy-link, detectedBy: rules_engine }
+  - { page: /faq, rule: footer-date-code, detectedBy: rules_engine }
+  - { page: /faq, rule: risk-benefit-balance, evidence: 'Guaranteed relief', detectedBy: llm }

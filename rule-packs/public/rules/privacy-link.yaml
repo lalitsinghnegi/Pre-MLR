@@ -1,0 +1,19 @@
+id: privacy-link
+version: 1
+title: Privacy policy link is present
+category: legal_privacy
+severity: minor
+check_type: deterministic
+description: Every page should link to the privacy policy.
+source:
+  citation: California Business and Professions Code section 22575 (CalOPPA)
+  url: https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=BPC&sectionNum=22575
+  note: Applies to sites collecting personally identifiable information from California residents; other jurisdictions may add requirements.
+  last_verified: 2026-10-03
+params:
+  check: required-link
+  name: privacy policy
+  mode: present
+  linkText: [privacy]
+  hrefContains: [privacy]
+  excludePaths: []
